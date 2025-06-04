@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+.nav {
+    width: 900px;
+    height: 50px;
+    padding-top: 0px;
+    margin-left: 18%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 35px;
+    background-color: #333;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+.nav a:hover {
+    background-color: #444;
+    border-radius: 35px;
+}
+
+/* Home Section */
+.home1 {
+    display: flex;
+    padding-top: 100px;
+}
+#home {
+    height: 100vh;
+    background: linear-gradient(to right, #0074d9, #2ecc71);
+}
+.intro{
+    padding-top: 100px;
+    color: #fff;
+    padding-right: 400px;
+}
+
+.intro h2 {
+    font-size: 3rem;
+}
+
+.intro h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #0074d9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+    color: #fff;
+}
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url("IMG_20240424_185316.jpg");
+    background-size: cover;
+    padding-right: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Styling */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.skill-container, .projects-grid, .experience-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill, .project, .experience-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 15px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2ecc71;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 1rem;
+}
